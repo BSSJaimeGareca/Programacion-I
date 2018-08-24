@@ -1,0 +1,130 @@
+#include "pch.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+	cout << "Buenos dias estimados clientes, Unicamente el dia de hoy si compra un maximo de 6 prouctos, habra un descuento en su compra en los siguientes productos" << endl;
+	cout << "- Gaseosas un 30% de descuento" << endl;
+	cout << "- Frutas un 20% de descuento" << endl;
+	cout << "- Juguetes un 10% de descuento" << endl;
+	cout << " Y SI COMPRA 6 PRODUCTOS, UN 20% TODOS LOS PRODUCTOS" << endl;
+	cout << "por favor, escriba el nombre de los productos a continuacion de su compra: " << endl;
+	cout << "Si solo desea llevar 3 productos y no 6 que es el maximo, coloque 0 en las calillas restantes" << endl;
+
+	cout << "los productos a verder por codigo son 1 leche : 2 gaseosa : 3 chocolate : 4 cafe : 5 pan : 6 fruta : 7 verdura : 8 verdura : 9 juguete " << endl;
+	cout << "Si solo desea llevar 3 productos y no 6 que es el maximo, coloque 0 en las calillas restantes" << endl;
+
+	double tt, a5, b5, c7, d5, e5, a, b, c, d, e, f, d1, d2, d3, d4, n6, Gaseosa = 20, Juguete = 15, Fruta = 8;
+	double t = 2 && 6 && 9;
+	double w;
+	cout << "1.-  ";
+	cin >> a;
+	cout << "2.-  ";
+	cin >> b;
+	cout << "3.-  ";
+	cin >> c;
+	cout << "4.-  ";
+	cin >> d;
+	cout << "5.- ";
+	cin >> e;
+	cout << "6.- ";
+	cin >> f;
+
+	if (a && b && c && d && e && f != 0 && 2 && 6 && 9)
+	{
+		a5 = 10;
+		b5 = 24;
+		c7 = 10;
+		d5 = 4;
+		e5 = 9;
+		w = 7;
+	}
+
+	if (a != 0 && 2 && 6 && 9)
+	{
+		a5 = 10;
+	}
+	if (b != 0 && 2 && 6 && 9)
+	{
+		b5 = 24;
+	}
+	if (c != 0 && 2 && 6 && 9)
+	{
+		c7 = 10;
+	}
+	if (d != 0 && 2 && 6 && 9)
+	{
+		d5 = 4;
+	}
+	if (e != 0 && 2 && 6 && 9)
+	{
+		e5 = 9;
+	}
+	if (f != 0 && 2 && 6 && 9)
+	{
+		w = 7;
+	}
+	if (a == 0 && 2 && 6 && 9)
+	{
+		a5 = 0;
+	}
+	if (b == 0 && 2 && 6 && 9)
+	{
+		b5 = 0;
+	}
+	if (c == 0 && 2 && 6 && 9)
+	{
+		c7 = 0;
+	}
+	if (d == 0 && 2 && 6 && 9)
+	{
+		d5 = 0;
+	}
+	if (e == 0 && 2 && 6 && 9)
+	{
+		e5 = 0;
+	}
+	if (f == 0 && 2 && 6 && 9)
+	{
+		w = 0;
+	}
+	if (a && b && c && d && e && f != 0)
+	{
+		d1 = ((a5 + b5 + c7 + d5 + e5 + w) * 0.80);
+		n6 = Gaseosa || Juguete || Fruta;
+	}
+	if (a || b || c || d || e || f == 0)
+	{
+		n6 = Gaseosa || Juguete || Fruta;
+	}
+	if (a || b || c || d || e || f && n6 == 2)
+	{
+		d2 = Gaseosa * 0.70;
+	}
+
+	if (a || b || c || d || e || f && n6 == 6)
+	{
+		d3 = Fruta * 0.80;
+	}
+
+	if (a || b || c || d || e || f && n6 == 9)
+	{
+		d4 = Juguete * 0.90;
+	}
+
+	if (a && b && c && d && e && f != 0)
+	{
+		cout << "el costo de sus productos es " << d1 << endl;
+
+	}
+	else
+	{
+		cout << "El costo de sus productos es " << a5 + b5 + c7 + e5 + w + d2 + d3 + d4 << endl;
+	}
+}
+
+//Jaime Gareca g
