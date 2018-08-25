@@ -1,0 +1,28 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+#include <stdio.h>
+
+using namespace std;
+
+void main()
+{
+	float x1, y1, x2, y2;
+	double d;
+  	cout << "punto_1" << endl;   //punto_1//
+	cout << "x: ";
+	cin >> x1;
+	cout << "y: ";
+	cin >> y1;
+	cout << "punto_2" << endl;   //punto_2//
+	cout << "x: ";
+	cin >> x2;
+	cout << "y: ";
+	cin >> y2;
+	d = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+	cout << "distancia_entre_los_puntos: " << d << endl;
+
+	_getwch();
+}
