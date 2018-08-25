@@ -1,0 +1,25 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include"math.h"
+#include<stdio.h>
+using namespace std;
+
+void main()
+{
+	float l,area;
+	cout << "lado :";
+	cin >> l;
+	area = pow(l,2);
+	cout << "area: " << area << endl;
+	_getwch();  //Ingeniera, use "_getwch() porque mi version acepta este codigo//
+  
+  //Pseudocodigo//
+  
+  Algoritmo AreaCuadrado
+	Escribir "lado"
+	Leer l
+	area = (l*l)
+	Escribir "ElAreaDelCuadradoEs: ",area
+FinAlgoritmo
