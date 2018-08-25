@@ -1,0 +1,26 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include"math.h"
+#include<stdio.h>
+using namespace std;
+
+void main()
+{
+	float π,r,area;
+	cout << "radio :";
+	cin >> r;
+	π = 3.141592;
+	area = pow(r,2)*π;
+	cout << "area: " << area << endl;
+	_getwch();  //Ingeniera, use "_getwch() porque mi version acepta este codigo//
+  
+  //Pseudocodigo//
+  
+  Algoritmo AreaCircunferencia
+	Escribir "r"
+	Leer r
+	p=3.141592 //p=pi//
+	area = (r*r)*p;
+	Escribir "ElAreaDeLaCircunferenciaEs: ",area
