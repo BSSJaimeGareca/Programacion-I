@@ -1,0 +1,23 @@
+
+//Intercambio_de_valores//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include"math.h"
+#include<stdio.h>
+using namespace std;
+
+void main()
+{
+	int A, B;
+	cout << "Valor de A: ";
+	cin >> A;
+	cout << "Valor de B: ";
+	cin >> B;
+	int aux1 = A;
+	A = B;
+	B = aux1;
+	cout << "Intercambio de valores_ejecutad0" << endl;
+	cout << "A: " << A << endl;
+	cout << "B: " << B << endl;
