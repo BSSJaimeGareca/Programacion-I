@@ -1,0 +1,27 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+
+{
+	float n,p=0;
+	
+	cout<<"nota_1: ";
+	cin>> n;
+	p+n;
+	cout<<"nota_2: ";
+	cin>> n;
+	p+n; 
+	cout<<"nota_3: ";
+	cin>> n;
+	p+n;
+	cout<<p/3;
+
+
+getch();
+} 
