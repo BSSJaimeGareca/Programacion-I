@@ -1,0 +1,31 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include"math.h"
+#include<stdio.h>
+using namespace std;
+
+void main()
+{
+	float b, h, area;
+	cout << "base :";
+	cin >> b;
+	cout << "altura: ";
+	cin >> h;
+	area = (b*h) / 2;
+	cout << "area: " << area << endl;
+	_getwch();  //Ingeniera, use "_getwch() porque mi version acepta este codigo//
+
+}
+
+
+//Pseudocodigo//
+
+Algoritmo AreaTriangulo
+	Escribir "base"
+	Leer b
+	Escribir "altura"
+	Leer h
+	area = (b*h)/2
+	Escribir "ElAreaDelTrianguloEs: ",are
