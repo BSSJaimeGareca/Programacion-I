@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+	
+	double salariominimo = 2060,salario, salariofinal, AFP, IVA,si;
+	
+	do{
+	
+	cout<<"Ingrese el salario: ";
+	cin>>salario;
+	if(salario>4*salariominimo)
+		salariofinal = salario - 0.251*salario;
+	else
+		salario = salario - salario*0.121;
+
+	cout<<"el salario final es de: "<<salario<<endl;
+
+		cout<<"desea continuar: ";
+		cin>>si;
+	}while(si == si);
+	getch();
+}
